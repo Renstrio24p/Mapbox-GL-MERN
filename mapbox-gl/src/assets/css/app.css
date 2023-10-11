@@ -1,0 +1,171 @@
+.card {
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+label {
+    color: tomato;
+    font-size: 13px;
+    border-bottom: .5px solid tomato;
+    margin: 3px 0;
+    width: max-content;
+}
+
+.desc {
+    font-size: 14px;
+}
+
+.star {
+    color: gold;
+}
+
+.username {
+    font-size: 14px;
+}
+
+.date {
+    font-size: 12px;
+}
+
+form {
+    width: 250px;
+    height: max-content;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+input[type=text],textarea {
+    border: none;
+}
+
+input::placeholder,
+textarea::placeholder {
+    font-size: 12px;
+    color: rgb(103, 102, 102);
+}
+
+textarea {
+    resize: none;
+}
+
+.submitBtn {
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    background-color: tomato;
+    cursor: pointer;
+}
+
+.menu {
+    position: absolute;
+    display: flex;
+    gap: 10px;
+    top: 10px;
+    right: 45px;
+}
+
+button {
+    cursor: pointer;
+}
+
+.buttons {
+    animation: fadeInRight 3s .2s;
+}
+
+.button {
+    border: none;
+    padding: 5px 10px;
+    border-radius: 6px;
+    color: white;
+}
+
+.buttons {
+    display: flex;
+    gap: 5px;
+}
+
+.auth-user {
+    background-color: white;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    gap: 5px;
+    animation: fadeInRight 1s 0s;
+}
+
+.logout {
+    background-color: tomato;
+}
+.login {
+    background-color: teal;
+}
+.register {
+    background-color: slateblue;
+}
+
+.auth {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    flex-direction: column;
+    gap: 0;
+    animation: fadeInUp 2s 0s;
+}
+
+.auth,
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    color: slateblue;
+    padding: 10px;
+    font-weight: 600;
+}
+
+input {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    transition: .5s;
+}
+
+input:focus {
+    outline: 2px solid slateblue;
+}
+
+input[type=text],
+input[type=email],
+input[type=password],
+textarea {
+    border-bottom: 1px solid gray;
+}
+
+.success {
+    color: teal;
+    background-color: rgb(214, 244, 234);
+}
+
+.error {
+    color: rgb(128, 0, 0);
+    background-color: rgb(244, 220, 214);
+}
+
+.cancelBtn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    color: brown;
+    cursor: pointer;
+}

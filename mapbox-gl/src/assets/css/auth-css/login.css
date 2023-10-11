@@ -1,0 +1,29 @@
+.login-container {
+    width: 300px;
+    height: max-content;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+}
+
+.login-container .logo {
+    color: teal;
+}
+
+input[type=submit] {
+    cursor: pointer;
+    background-color: teal;
+    border: none;
+    color: white;
+}
+
+input:focus {
+    outline: 1px solid teal;
+}
+
+.login-container span {
+        width: 100%;
+        text-align: center;
+        padding: 5px;
+        border-radius: 5px;
+}

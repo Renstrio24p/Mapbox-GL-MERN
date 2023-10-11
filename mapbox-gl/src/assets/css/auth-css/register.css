@@ -1,0 +1,25 @@
+.register-container {
+    width: 300px;
+    height: max-content;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+}
+
+input[type=submit] {
+    cursor: pointer;
+    background-color: slateblue;
+    border: none;
+    color: white;
+}
+
+.register-container .logo {
+    color: slateblue;
+}
+
+.register-container span {
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+}
